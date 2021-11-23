@@ -2,7 +2,7 @@
 ICDE 2022
 Paper: Probabilistic Modelling of Irregularly Sampled Information Cascades with Evolution Uncertainty
 ### Requirements
-The code was tested with `python 3.7`, `pyorch-GPU 1.10`, `cudatookkit 10.2`, and `cudnn 7.6.5`. Install the dependencies via [Anaconda](https://www.anaconda.com/):
+The code was tested with `python 3.7`, `pyorch-gpu 1.10`, `cudatookkit 10.2`, and `cudnn 7.6.5`. Install the dependencies via [Anaconda](https://www.anaconda.com/):
 
 ```shell
 # create virtual environment
