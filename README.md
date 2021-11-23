@@ -20,15 +20,15 @@ pip install -r requirements.txt
 cd ./CasDO
 
 # generate information cascades
-python gene_cas.py --input=./dataset/weibo/
+python gene_cas.py --input=./dataset/twitter/
 
 # generate cascade graph and global graph embeddings 
-python gene_emb.py --input=./dataset/weibo/
+python gene_emb.py --input=./dataset/twitter/
 
 # run CasDO model
-python run_model.py --input=./dataset/weibo/
+python run_model.py --input=./dataset/twitter/
 ```
-More running options are described in the codes, e.g., `--input=./dataset/weibo/`
+More running options are described in the codes, e.g., `--input=./dataset/twitter/`
 
 ## Datasets
 
