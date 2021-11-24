@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--input', default='./dataset/twitter/', type=str, help="Dataset path.")
 parser.add_argument('--gg_path', default='global_graph.pkl', type=str, help="Global graph path.")
 ######################gene_cas
-parser.add_argument("--observation_time", type=int, default=3600*24*2, help="Observation time.")
+parser.add_argument("--observation_time", type=int, default=3600*24*1, help="Observation time.")
 parser.add_argument("--prediction_time", type=int, default=3600*24*32, help="Prediction time.")
 
 ######################gene_emb
